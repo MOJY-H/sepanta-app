@@ -34,7 +34,7 @@ function ScrollToTopBtn() {
             </button>
         </LiquidGlass>
     </section>
-  );
+  ) ;
 }
 
 export default ScrollToTopBtn;

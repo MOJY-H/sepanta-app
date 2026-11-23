@@ -17,8 +17,8 @@ export default function Home() {
             alt="bg"
             width={1000}
             height={100}
-          ></Image>
-          <div className="flex h-[200px] absolute bottom-0 w-full animate-wiggle bg-linear-to-b from-[#2A2A2A00] to-[#000000] shadow-2xl z-0"></div>
+          />
+          <div className="flex h-50 absolute bottom-0 w-full animate-wiggle bg-linear-to-b from-[#2A2A2A00] to-[#000000] shadow-2xl z-0"></div>
           <section className="absolute top-[14%] flex flex-col place-self-center w-[95%]">
             <p className="flex gap-5">
               <span className="bg-[#FACD75] w-24 h-0.75 flex place-self-center rounded-full "></span>

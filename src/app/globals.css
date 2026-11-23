@@ -5,21 +5,31 @@
 @custom-variant dark (&:is(.dark *));
 
 :root {
-  --secondary: oklch(0.97 0 0);  
+  --secondary: #F8F8F8;  
+  --background: #000000;
   --primary: oklch(0.205 0 0);
   --navbar: #CA7F0033 ;
   /* --linear-g: linear-gradient(90deg, #FFB400 -16.67%, #F5F7F7 100%); */
 
   --space-16: 16;
-  --space-24: 24;
-  --space-32: 32;
-  --space-84: 84;
+  --space-24: 20;
+  --space-32: 40;
 
-  --border-10:10:
-  --border-20:20:
-  --border-15:15:
+  --border-10:10px:
+  --border-20:20px:
+  --border-15:16px:
 
   --blur: 20%;
+
+  --font-header-20:20px;
+  --font-header-24:24px;
+
+  --font-title-8:8px;
+  --font-title-12:12px; 
+  --font-title-16:16px;
+
+
+  /* Shadcn */
 
   --background: oklch(0.145 0 0);
 
