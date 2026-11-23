@@ -3,6 +3,8 @@ import { LiquidGlass } from "./ui/liquid-glass"
 export const Navbar = () => {
   return (
     <>
+       
+      <div className="flex place-self-center gap-16 border border-white/40 rounded-[20px] rounded-tr-3xl rounded-bl-3xl ">
         <LiquidGlass
           radius={20}
           bevelDepth={8}
@@ -15,6 +17,11 @@ export const Navbar = () => {
             <span className="text-[14px]"> تور خارجی </span>
             <span className="text-[14px]">  درباره ما </span>
         </LiquidGlass>
+      </div>  
     </>
   )
 }
+
+
+
+

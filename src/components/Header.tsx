@@ -22,29 +22,33 @@ export const Header = () => {
             
             <div className="flex place-self-center gap-4">
 
-              <LiquidGlass
-                radius={20}
-                bevelDepth={8}
-                scale={36}
-                tint={0.22} 
-                className="w-7 h-7 flex place-content-center cursor-pointer rounded-full "
-              >
-                <button className="cursor-pointer" type="button" >
-                    <Image className="ml-0.5" src={heartWhite} alt="heart" width={18} height={18}></Image>
-                </button>
-              </LiquidGlass>
+              <div className="flex place-self-center border border-white/40 rounded-[20px] rounded-tr-4xl rounded-bl-4xl rounded-br-4xl rounded-tl-4xl">
+                <LiquidGlass
+                  radius={20}
+                  bevelDepth={8}
+                  scale={36}
+                  tint={0.22} 
+                  className="w-7 h-7 flex place-content-center cursor-pointer rounded-full "
+                >
+                        <button className="cursor-pointer " type="button" >
+                            <Image className="ml-0.5" src={heartWhite} alt="heart" width={18} height={18}/>
+                        </button>
+                </LiquidGlass>
+              </div>
 
-              <LiquidGlass
-                radius={20}
-                bevelDepth={8}
-                scale={36}
-                tint={0.22} 
-                className="w-7 h-7 flex place-content-center cursor-pointer rounded-full "
-              >
-                <button className="cursor-pointer" type="button" > 
-                  <Image src={UserWhite} alt="user" width={18} height={18}></Image>
-                </button>
-              </LiquidGlass>
+              <div className="flex place-self-center border border-white/40 rounded-[20px] rounded-tr-4xl rounded-bl-4xl rounded-br-4xl rounded-tl-4xl">
+                <LiquidGlass
+                  radius={20}
+                  bevelDepth={8}
+                  scale={36}
+                  tint={0.22} 
+                  className="w-7 h-7 flex place-content-center cursor-pointer rounded-full "
+                >
+                  <button className="cursor-pointer" type="button" > 
+                    <Image src={UserWhite} alt="user" width={18} height={18}/>
+                  </button>
+                </LiquidGlass>
+              </div>
 
             </div>
 
